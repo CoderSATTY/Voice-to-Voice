@@ -15,7 +15,7 @@ Voiz AI is an Advanced Conversational Assistant that operates on a real-time, on
 
 ## 🚀 Demo Video
 
-[![Project Demo Video]([https://github.com/your-username/your-repo/blob/main/assets/demo_thumbnail.png?raw=true](https://youtu.be/Raw870zI6Jg?si=ugINMgmyP3aeLUZV)
+[![Project Demo Video]([](https://youtu.be/Raw870zI6Jg?si=ugINMgmyP3aeLUZV)
 
 *Click the thumbnail above to watch a 2-minute demo of our project in action!*
 
