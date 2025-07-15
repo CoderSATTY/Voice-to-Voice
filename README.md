@@ -14,9 +14,9 @@ Voiz AI is an Advanced Conversational Assistant that operates on a real-time, on
 8. On-demand architecture – Everything works live, when you need it
 
 ## 🚀 Demo Video
+[![Project Demo Video](https://github.com/CoderSATTY/Voice-to-Voice/blob/main/src/voiz%20ai%20thumbnail.png?raw=true)](https://youtu.be/Raw870zI6Jg?si=ugINMgmyP3aeLUZV)
 
-[![Project Demo Video]([](https://youtu.be/Raw870zI6Jg?si=ugINMgmyP3aeLUZV)
 
-*Click the thumbnail above to watch a 2-minute demo of our project in action!*
+*Click the thumbnail above to watch the demo video for some insane outputs*
 
 
