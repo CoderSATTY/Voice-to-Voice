@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voiz AI - Voice Assistant</title>
+    <link rel="stylesheet" href="./try4.css">
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <!-- <style>
+        .hidden { display: none !important; }
+    </style> -->
+</head>
+<body>
+    <!-- Electric Background -->
+    <div class="electric-bg">
+        <div class="electric-line"></div>
+        <div class="electric-line"></div>
+        <div class="electric-line"></div>
+        <div class="electric-line"></div>
+        <div class="circuit-line"></div>
+        <div class="circuit-line"></div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">🔊Voiz AI</div>
+        <sub class="header-subscript">by &lt&gt GDG, IIT Indore</sub>
+        <button class="new-session-btn hidden" onclick="newSession()">New Session</button>
+    </div>
+
+    <!-- Instructions Section -->
+    <div class="instructions-section hidden" id="instructionsSection">
+        <div class="instructions-text">
+            <strong>Voice Assistant Ready:</strong> Click the SPEAK button on the left to start voice interaction. 
+            Speak clearly when the button is active. Your conversations will appear in the message panel on the right.
+        </div>
+    </div>
+
+    <!-- Intro Page -->
+    <div class="intro-page" id="introPage">
+        <h1 class="intro-title"><span>🔊</span>Voiz AI</h1>
+
+        <h2 class="intro-subtitle">Advanced AI Voice Assistant</h2>
+        <p class="intro-description">
+            Experience the future of voice interaction with Voiz AI, your personal AI assistant. 
+            Powered by cutting-edge technology and designed with a sleek, high-tech interface 
+            inspired by the most advanced AI systems. Ready to assist you with intelligent 
+            conversations, tasks, and seamless voice interactions.
+        </p>
+        <!-- **CRITICAL FIX**: Pass the 'event' object to the function -->
+        <button class="start-btn" onclick="startAssistant(event)">Initialize System</button>
+    </div>
+
+    <!-- Main Interface -->
+    <div class="main-interface" id="mainInterface">
+        <!-- Left Panel - Speaking Button -->
+        <div class="left-panel">
+            <button class="speak-btn" id="speakBtn" onclick="toggleSpeaking()"><span id="speakBtnText">Speak</span></button>
+        </div>
+        
+        <!-- Right Panel - Messages -->
+        <div class="right-panel">
+            <div class="messages-container" id="messagesContainer">
+                <div class="message assistant">
+                    <div class="message-label">🔊Voiz AI System</div>
+                    <div class="message-text">System initialized successfully. I'm ready to assist you with voice interactions. Click the SPEAK button on the left to begin our conversation.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./try4.js"></script>
+</body>
+</html>
