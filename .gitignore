@@ -1,0 +1,7 @@
+".src/env" 
+".src/__pycache__" 
+".src/env" 
+"__pycache__/" 
+".cache/" 
+"agent_tools/.env"
+"agent_tools/__pycache__"
